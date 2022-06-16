@@ -1,1 +1,12 @@
-In the course, I plan to tighten my weaknesses
+<?xml version="1.0" encoding="utf-8"?>
+<Title>
+	<date WebApplications="YES"/>
+	<Tools>
+		<item1>Эмуляторы</item1>
+		<item2>DevTools</item2>
+		<item3>Jira</item3>
+		<item4>TestRail</item4>
+		<item5>Документация</item5>
+		<item6>API</item6>
+	</Tools>
+</Title>
