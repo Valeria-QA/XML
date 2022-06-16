@@ -1,4 +1,8 @@
-My name is Lera
-I'm 30 years old
-I love the proffesion of QA
+<?xml version="1.0" encoding="utf-8"?>
+<account>
+	<date name="lera"/>
+	<date age="30"/>
+	<date pеts="1"/>
+	<date salary="1000"/>
+	</account>
 
