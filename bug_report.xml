@@ -1,14 +1,23 @@
-Title - Поле [Имя] принимает все невалидные значения
-Modul - Регистрация пользователя
-precondition - 1. Открыта форма регистрации https://account.mail.ru/signup?from=navi&lang=ru_RU&siteid=169&app_id_mytracker=58519    
-               2. Пользователь не зарегестрирован
-               3. Все поля кроме тестируемого заполнены валидными данными 
-steps - 1. Заполнить поле имя валидными данными
-        2. Заполнить поле Фамилия валидными данными
-        3. Поле Дата Рождения оставить пустым
-        4. Заполнить радиобатн пол
-        5. Заполнить поле имя ящика валидными данными
-        6. Заполнить поле номер телефона валидными даннвми.
-        7. Нажать кнопку создать
-expected result - Ожидаем, что сиситема выдаст ошибку "Укажите дату рождения" и подсветит поле Дата рождения красным. Система не допустит к следующему шагу и пользователь не будет зарегестрирован
-result - Поле Имя принимает все невалидные значения на всех шагах, система регестрирует пользователя
+<?xml version="1.0" encoding="utf-8"?>
+<BUG>
+	<title bugname="The Name field accepts all invalid values">
+		<id>2</id>
+		<modul>User registration</modul>
+		<Environment>РС Google Chrome versia 101.0.4951.67(64 bit)</Environment>, 
+
+		<Severity>Major</Severity>
+		<Priority>Medium</Priority>
+		<autor>Zakharova Valeria</autor>
+		<Precondition>Registration form is open</Precondition>
+		<steps>
+			<step1>Entering letters in a different case in the middle of a word</step1>
+			<step2>Entering letters and numbers together</step2>
+			<step3>Entering code characters and special characters, including currency symbols</step3>
+			<step4>Space only input</step4>
+			<step5>Press create button</step5>
+		</steps>
+		<expResult>at each attempt to enter invalid data, the system will display an error The name field is filled incorrectly, the system will not allow to the next step and will not register the user</expResult>
+		<ActResult>The Name field takes all invalid values at all steps, the system registers the user</ActResult>
+		<Status>New</Status>
+	</title>
+</BUG>
