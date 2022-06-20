@@ -10,11 +10,11 @@
 		<autor>Zakharova Valeria</autor>
 		<Precondition>Registration form is open</Precondition>
 		<steps>
-			<step1>Entering letters in a different case in the middle of a word</step1>
-			<step2>Entering letters and numbers together</step2>
-			<step3>Entering code characters and special characters, including currency symbols</step3>
-			<step4>Space only input</step4>
-			<step5>Press create button</step5>
+			<step>1. Entering letters in a different case in the middle of a word</step>
+			<step>2. Entering letters and numbers together</step>
+			<step>3. Entering code characters and special characters, including currency symbols</step>
+			<step>4. Space only input</step>
+			<step>5. Press create button</step>
 		</steps>
 		<expResult>at each attempt to enter invalid data, the system will display an error The name field is filled incorrectly, the system will not allow to the next step and will not register the user</expResult>
 		<ActResult>The Name field takes all invalid values at all steps, the system registers the user</ActResult>
