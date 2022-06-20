@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <account>
-	<date name="lera"/>
-	<date age="30"/>
-	<date pеts="1"/>
-	<date salary="1000"/>
-	</account>
+	<field name="name">Lera</field>
+	<field name="age">30</field>
+	<field name="count_pеts">1</field>
+	<field name="salary">1000</field> 
+</account>
 
