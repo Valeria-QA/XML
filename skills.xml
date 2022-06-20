@@ -2,11 +2,11 @@
 <Title>
 	<date WebApplications="YES"/>
 	<Tools>
-		<item1>Эмуляторы</item1>
-		<item2>DevTools</item2>
-		<item3>Jira</item3>
-		<item4>TestRail</item4>
-		<item5>Документация</item5>
-		<item6>API</item6>
+		<item>Эмуляторы</item>
+		<item>DevTools</item>
+		<item>Jira</item>
+		<item>TestRail</item>
+		<item>Документация</item>
+		<item>API</item>
 	</Tools>
 </Title>
