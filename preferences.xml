@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <account>
-	<date film="Titanic"/>
-	<date serias="supernatural"/>
-	<date food="pizza"/>
-	<date season="summer"/>
-	<date country="Grecce"/>
-	</account>
+	<field name="film">Titanic</field>
+	<field name="serias">supernatural</field>
+	<field name="food">pizza</field>
+	<field name="season">summer</field>
+	<field name="country">Grecce</field>
+</account>
